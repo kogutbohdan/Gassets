@@ -15,6 +15,7 @@ class Gasset:
 
     def useArticle(self,func):
         for nameArticle in self.__articles:
+            print(self.__articles[nameArticle].caption)
             self.__articles[nameArticle].use(func)
 
 class Printer:
