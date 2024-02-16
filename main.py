@@ -23,9 +23,9 @@ class Printer:
         gasset.useArticle(print)
 
 class Article:
+    __contents=[]
     def __init__(self,caption):
         self.__caption=caption
-        self.__contents=[]
 
     @property
     def caption(self):
